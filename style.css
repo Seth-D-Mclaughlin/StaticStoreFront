@@ -1,0 +1,200 @@
+html{
+    background-color: #3e1d04;
+}
+header{
+    background-color: #3e1d04;
+    border: #f2f2f2 3px solid;
+    z-index: 0;
+}
+h1 {
+    font-size: 2em;
+    margin-top: .3em;
+    margin-bottom: 0em;
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    
+}
+h4{
+  margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.75em;
+    font-weight: bold;
+    color: white;
+} 
+h1 h3 {
+    z-index: -1;
+    background-color: burlywood;
+}
+header img{
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.topnav {
+    background-color: burlywood;
+    overflow: hidden;
+    border-bottom: white 3px solid;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #3e1d04;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #3e1d04;
+    color: white;
+  }
+  .brand{
+    position: relative;
+    top: -35px;
+    display: inline-block;
+    color: white;
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood; 
+  }
+.sidenav{
+    position: absolute;
+    top: auto;
+}
+  /* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    display: inline-flex;
+    transition: 0.3s; /* Add transition on hover */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px; /* 15px padding */
+    padding-right: 5px;
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #Facebook {
+    top: 20px;
+    background-color: burlywood;
+  }
+  
+  #Instagram {
+    top: 80px;
+    background-color: burlywood; /* Blue */
+  }
+  
+  #Twitter {
+    top: 140px;
+    background-color: burlywood; /* Red */
+  }
+  
+  #SnapChat {
+    top: 200px;
+    background-color: burlywood /* Light Black */
+  }
+
+  
+  body {
+    
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+ 
+  
+  .row {
+    margin: auto ;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding-top: 16px;
+    padding-left: 6px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    height: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: burlywood;
+    background-position: auto;
+    
+  
+    margin: auto;
+    font-size: 15px;
+  }
+  .content img{
+   
+    margin: 12px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 60%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 60%;
+    }
+  }
+
+  .work{
+    padding-top: 10%;
+    padding-left: 10%;
+    margin: auto;
+  }
+  p{
+    font: 1.25em sans-serif;
+    padding: 1%;
+  }
+  
